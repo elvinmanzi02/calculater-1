@@ -1,0 +1,93 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    background-color:#1C1C1C;
+    width: 132px;
+    height: 205px;
+    border-radius: 5px;
+
+}
+
+.display {
+    height: 40px;
+    background-color: #505050;
+    margin: 5px 1px auto 1px ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: #ffffff;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    padding: 2px;
+    margin: auto 2px;
+}
+
+.buttons button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.operator {
+    background-color: #ff9500;
+}
+
+.operator:active {
+    background-color: #cf7901;
+}
+
+#times {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#sign {
+    background-color:#D4D4D2; 
+}
+#percentage {
+    background-color:#D4D4D2;
+}
+
+.operand {
+    background-color: #ffffff;
+}
+
+.operand:active {
+    background-color:#D4D4D2;;
+}
+
+#clearAll {
+    background-color: rgb(174, 28, 50);
+}
+
+#clearAll:active {
+    background-color: rgb(233, 12, 12);
+}
+
+#clearOne {
+    background-image: url("images/clearOnebyOne.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#equal {
+    background-color: aquamarine;
+}
+
+#equal:active {
+    background-color: rgb(7, 174, 118);
+}
